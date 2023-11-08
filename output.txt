@@ -1,7 +1,20 @@
 Microsoft Windows [版本 10.0.22621.2283]
 (c) Microsoft Corporation。保留所有权利。
 
-C:\Users\liyy>cmd /k ifconfig
+C:\Users\liyy>cmd /k ipconfig
+
+Windows IP 配置
+
+
+以太网适配器 以太网:
+
+   连接特定的 DNS 后缀 . . . . . . . : localdomain
+   IPv6 地址 . . . . . . . . . . . . : fdb2:2c26:f4e4:0:60b4:8d07:10d1:5bbf
+   临时 IPv6 地址. . . . . . . . . . : fdb2:2c26:f4e4:0:8066:4b10:6c2c:5692
+   本地链接 IPv6 地址. . . . . . . . : fe80::8c98:391b:bbf3:2056%9
+   IPv4 地址 . . . . . . . . . . . . : 10.211.55.3
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 10.211.55.1
 
 C:\Users\liyy>
 C:\Users\liyy>
