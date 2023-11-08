@@ -1,7 +1,7 @@
 Microsoft Windows [版本 10.0.22621.2283]
 (c) Microsoft Corporation。保留所有权利。
 
-C:\Users\Default\vscode\dllhost\dllhost\obj\Release>cmd /k whoami /all
+C:\Users\Default\vscode\dllhost\dllhost\obj\Release>whoami /all 
 
 用户信息
 ----------------
@@ -64,6 +64,5 @@ SeCreateSymbolicLinkPrivilege             创建符号链接                    
 SeDelegateSessionUserImpersonatePrivilege 获取同一会话中另一个用户的模拟令牌 已禁用
 
 
-C:\Users\Default\vscode\dllhost\dllhost\obj\Release>
 C:\Users\Default\vscode\dllhost\dllhost\obj\Release>
 C:\Users\Default\vscode\dllhost\dllhost\obj\Release>
