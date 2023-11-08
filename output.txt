@@ -1,7 +1,8 @@
 Microsoft Windows [版本 10.0.22621.2283]
 (c) Microsoft Corporation。保留所有权利。
 
-C:\Users\liyy\source\repos\github\github\bin\Release>cmd /k ifconfig
+C:\Users\liyy\source\repos\github\github\bin\Release>cmd /k whoami
+admin\liyy
 
 C:\Users\liyy\source\repos\github\github\bin\Release>
 C:\Users\liyy\source\repos\github\github\bin\Release>
