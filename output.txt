@@ -1,8 +1,7 @@
 Microsoft Windows [版本 10.0.22621.2283]
 (c) Microsoft Corporation。保留所有权利。
 
-C:\Users\liyy>cmd /k whoami
-admin\liyy
+C:\Users\liyy>cmd /k ifconfig
 
 C:\Users\liyy>
 C:\Users\liyy>
