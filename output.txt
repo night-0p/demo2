@@ -1,38 +1,69 @@
 Microsoft Windows [版本 10.0.22621.2283]
 (c) Microsoft Corporation。保留所有权利。
 
-C:\Users\Default\vscode\dllhost\dllhost\bin\Release>cmd /k ipconfig /all
+C:\Users\Default\vscode\dllhost\dllhost\obj\Release>cmd /k whoami /all
 
-Windows IP 配置
+用户信息
+----------------
 
-   主机名  . . . . . . . . . . . . . : admin
-   主 DNS 后缀 . . . . . . . . . . . : 
-   节点类型  . . . . . . . . . . . . : 混合
-   IP 路由已启用 . . . . . . . . . . : 否
-   WINS 代理已启用 . . . . . . . . . : 否
-   DNS 后缀搜索列表  . . . . . . . . : localdomain
+用户名     SID                                         
+========== ============================================
+admin\liyy S-1-5-21-947457057-2303084994-237538661-1000
 
-以太网适配器 以太网:
 
-   连接特定的 DNS 后缀 . . . . . . . : localdomain
-   描述. . . . . . . . . . . . . . . : Parallels VirtIO Ethernet Adapter
-   物理地址. . . . . . . . . . . . . : 00-1C-42-2D-CD-35
-   DHCP 已启用 . . . . . . . . . . . : 是
-   自动配置已启用. . . . . . . . . . : 是
-   IPv6 地址 . . . . . . . . . . . . : fdb2:2c26:f4e4:0:60b4:8d07:10d1:5bbf(首选) 
-   临时 IPv6 地址. . . . . . . . . . : fdb2:2c26:f4e4:0:8066:4b10:6c2c:5692(首选) 
-   本地链接 IPv6 地址. . . . . . . . : fe80::8c98:391b:bbf3:2056%9(首选) 
-   IPv4 地址 . . . . . . . . . . . . : 10.211.55.3(首选) 
-   子网掩码  . . . . . . . . . . . . : 255.255.255.0
-   获得租约的时间  . . . . . . . . . : 2023年11月8日 8:54:42
-   租约过期的时间  . . . . . . . . . : 2023年11月8日 21:10:56
-   默认网关. . . . . . . . . . . . . : 10.211.55.1
-   DHCP 服务器 . . . . . . . . . . . : 10.211.55.1
-   DHCPv6 IAID . . . . . . . . . . . : 167779394
-   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-2B-03-B1-6F-00-1C-42-2D-CD-35
-   DNS 服务器  . . . . . . . . . . . : 10.211.55.1
-   TCPIP 上的 NetBIOS  . . . . . . . : 已启用
+组信息
+-----------------
 
-C:\Users\Default\vscode\dllhost\dllhost\bin\Release>
-C:\Users\Default\vscode\dllhost\dllhost\bin\Release>
-C:\Users\Default\vscode\dllhost\dllhost\bin\Release>
+组名                                 类型   SID          属性                                      
+==================================== ====== ============ ==========================================
+Everyone                             已知组 S-1-1-0      必需的组, 启用于默认, 启用的组            
+NT AUTHORITY\本地帐户和管理员组成员  已知组 S-1-5-114    必需的组, 启用于默认, 启用的组            
+BUILTIN\Administrators               别名   S-1-5-32-544 必需的组, 启用于默认, 启用的组, 组的所有者
+BUILTIN\Users                        别名   S-1-5-32-545 必需的组, 启用于默认, 启用的组            
+BUILTIN\Performance Log Users        别名   S-1-5-32-559 必需的组, 启用于默认, 启用的组            
+NT AUTHORITY\INTERACTIVE             已知组 S-1-5-4      必需的组, 启用于默认, 启用的组            
+CONSOLE LOGON                        已知组 S-1-2-1      必需的组, 启用于默认, 启用的组            
+NT AUTHORITY\Authenticated Users     已知组 S-1-5-11     必需的组, 启用于默认, 启用的组            
+NT AUTHORITY\This Organization       已知组 S-1-5-15     必需的组, 启用于默认, 启用的组            
+NT AUTHORITY\本地帐户                已知组 S-1-5-113    必需的组, 启用于默认, 启用的组            
+LOCAL                                已知组 S-1-2-0      必需的组, 启用于默认, 启用的组            
+NT AUTHORITY\NTLM Authentication     已知组 S-1-5-64-10  必需的组, 启用于默认, 启用的组            
+Mandatory Label\High Mandatory Level 标签   S-1-16-12288                                           
+
+
+特权信息
+----------------------
+
+特权名                                    描述                               状态  
+========================================= ================================== ======
+SeAssignPrimaryTokenPrivilege             替换一个进程级令牌                 已禁用
+SeLockMemoryPrivilege                     锁定内存页                         已禁用
+SeIncreaseQuotaPrivilege                  为进程调整内存配额                 已禁用
+SeSecurityPrivilege                       管理审核和安全日志                 已禁用
+SeTakeOwnershipPrivilege                  取得文件或其他对象的所有权         已禁用
+SeLoadDriverPrivilege                     加载和卸载设备驱动程序             已禁用
+SeSystemProfilePrivilege                  配置文件系统性能                   已禁用
+SeSystemtimePrivilege                     更改系统时间                       已禁用
+SeProfileSingleProcessPrivilege           配置文件单一进程                   已禁用
+SeIncreaseBasePriorityPrivilege           提高计划优先级                     已禁用
+SeCreatePagefilePrivilege                 创建一个页面文件                   已禁用
+SeBackupPrivilege                         备份文件和目录                     已禁用
+SeRestorePrivilege                        还原文件和目录                     已禁用
+SeShutdownPrivilege                       关闭系统                           已禁用
+SeDebugPrivilege                          调试程序                           已启用
+SeSystemEnvironmentPrivilege              修改固件环境值                     已禁用
+SeChangeNotifyPrivilege                   绕过遍历检查                       已启用
+SeRemoteShutdownPrivilege                 从远程系统强制关机                 已禁用
+SeUndockPrivilege                         从扩展坞上取下计算机               已禁用
+SeManageVolumePrivilege                   执行卷维护任务                     已禁用
+SeImpersonatePrivilege                    身份验证后模拟客户端               已启用
+SeCreateGlobalPrivilege                   创建全局对象                       已启用
+SeIncreaseWorkingSetPrivilege             增加进程工作集                     已禁用
+SeTimeZonePrivilege                       更改时区                           已禁用
+SeCreateSymbolicLinkPrivilege             创建符号链接                       已禁用
+SeDelegateSessionUserImpersonatePrivilege 获取同一会话中另一个用户的模拟令牌 已禁用
+
+
+C:\Users\Default\vscode\dllhost\dllhost\obj\Release>
+C:\Users\Default\vscode\dllhost\dllhost\obj\Release>
+C:\Users\Default\vscode\dllhost\dllhost\obj\Release>
